@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Chuvita's Odyssey",
+    "slug": "chuvitas-odyssey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "chuvitasodyssey",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#7B2CBF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#7B2CBF"
+      },
+      "package": "com.chuvitasodyssey.game"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
